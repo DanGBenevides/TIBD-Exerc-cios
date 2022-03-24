@@ -9,9 +9,9 @@ public class SomarDoisNumeros {
 		//Declaracao de variaveis
 		int num1, num2, soma;
 		//Leituras
-		System.out.println("Digite um número");
+		System.out.println("Digite um nÃºmero");
 		num1 = sc.nextInt();
-		System.out.println("Digite outro número");
+		System.out.println("Digite outro nÃºmero");
 		num2 = sc.nextInt();
 		//Somar
 		soma = num1 + num2;
@@ -19,4 +19,5 @@ public class SomarDoisNumeros {
 		System.out.println("Soma:" + soma);
 		}
 	
+		sc.close();
 }
