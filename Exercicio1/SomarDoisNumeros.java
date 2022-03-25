@@ -1,8 +1,11 @@
+package Unidade01;
+
 import java.util.*;
 
 public class SomarDoisNumeros {
 	public static void main (String args[]){
 		Scanner sc = new Scanner (System.in);
+
 		//Declaracao de variaveis
 		int num1, num2, soma;
 		//Leituras
@@ -12,9 +15,9 @@ public class SomarDoisNumeros {
 		num2 = sc.nextInt();
 		//Somar
 		soma = num1 + num2;
-	
-		sc.close();
 		//Mostrar na tela
 		System.out.println("Soma:" + soma);
-	}
+		}
+
+		sc.close();
 }
